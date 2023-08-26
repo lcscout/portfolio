@@ -87,7 +87,7 @@ params:
   #   secondaryTextColor:
   #   backgroundColor:
   #   secondaryBackgroundColor:
-      primaryColor: 000
+      primaryColor: "#000"
   #   secondaryColor:
 
   #   darkmode:
