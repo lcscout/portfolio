@@ -128,7 +128,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "/images/hero.svg"
+      url: "/resume_outdated.pdf"
       download: true
       newPage: false
     socialLinks:
