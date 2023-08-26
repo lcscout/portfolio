@@ -118,8 +118,8 @@ params:
   hero:
     enable: true
     intro: "Hi there 👋 I'm"
-    title: "Lucas Coutinho."
-    subtitle: "I create games and experiences"
+    title: "Lucas,"
+    subtitle: "a game developer."
     content: "I'm very interested in everything that surrounds game development and passionate about creating new worlds and unique experiences."
     image: /images/hero.svg
     bottomImage:
