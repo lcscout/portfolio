@@ -133,13 +133,13 @@ params:
       newPage: false
     socialLinks:
       fontAwesomeIcons:
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/lcscout/
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+          url: https://github.com/lcscout
+      # customIcons:
+        # - icon: /fav.png
+          # url: "https://example.com"
 
   # About
   about:
