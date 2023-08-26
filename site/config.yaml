@@ -117,8 +117,8 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi there! I'm"
-    title: "Lucas."
+    intro: "Hi there! 👋 I'm"
+    title: "Lucas Coutinho."
     # subtitle: ""
     content: "A passionate game developer. I'm very interested in software architecture and I love creating new worlds and unique experiences through games."
     image: /images/hero.svg
