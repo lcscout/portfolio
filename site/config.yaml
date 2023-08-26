@@ -1,4 +1,4 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://lcscout.netlify.app"
 languageCode: "en-us"
 title: "Lucas Coutinho"
 theme: hugo-profile
