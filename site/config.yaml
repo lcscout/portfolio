@@ -133,14 +133,14 @@ params:
       newPage: false
     socialLinks:
       fontAwesomeIcons:
-        - icon: fab fa-github
-          url: https://github.com/lcscout
-        - icon: fas fa-linkedin
+        - icon: fas fa-envelope
+          url: mailto:contact@lucascoutinho.me
+        - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/lcscout/
         - icon: fab fa-github
           url: https://github.com/lcscout
-        - icon: fab fa-github
-          url: https://github.com/lcscout
+        - icon: fas fa-link
+          url: https://linktr.ee/lcscout
       # customIcons:
         # - icon: /fav.png
           # url: "https://example.com"
