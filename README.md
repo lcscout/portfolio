@@ -7,7 +7,7 @@ Simple portfolio to share my projects and sideprojects I work on.
 - Using Hugo.io framework and [Hugo Profile](https://github.com/gurusabarish/hugo-profile) as theme
 - Theme uses bootstrap and fontawesome
 - Deployment with Netlify
-- Reverse proxy with Cloudflare
+- Cloudflare as DNS
 
 ## Theme Features
 - Fully Responsive
