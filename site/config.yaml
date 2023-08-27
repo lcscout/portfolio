@@ -188,37 +188,16 @@ params:
       - job: "Full-Stack Web Developer"
         company: "PICSIZE"
         companyUrl: "https://picsize.com.br/"
-        date: "Nov 2019 - Feb 2020"
+        date: "Nov 2019 - Mar 2020"
+        info:
+          enable: true
+          content: I was a intern for 4 months and worked more 2 months part-time before quitting for personal reasons.
         content: |
+          At PICSIZE, I worked with a very small team of 6 people at a startup that provides solutions for photographers' workflow, from the moment they finish taking the photo to delivering it to their clients.
+
+          - It was my first work experience, and I had the pleasure of being in touch with wonderful people from whom I learned a lot, both technically and personally.
           - After 4 months of internship I was invited to a part-time position.
           - At this point I was assigned to create a new solution on my own. The project was a portfolio creator, where photographers could easily show their work in a featured page. But ultimately, I ended up quitting the job.
-
-      - job: "Full-Stack Web Developer Intern"
-        company: "PICSIZE"
-        companyUrl: "https://picsize.com.br/"
-        date: "Nov 2019 - Feb 2020"
-        content: |
-          - At PICSIZE, I worked with a very small team of 6 people at a startup that provides solutions for photographers' workflow, from the moment they finish taking the photo to delivering it to their clients.
-          - It was my first work experience, and I had the pleasure of being in touch with wonderful people from whom I learned a lot, both technically and personally.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
   # Education
   education:
