@@ -344,11 +344,10 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/lcscout
+      linkedin: https://www.linkedin.com/in/lcscout/
+      twitter: https://twitter.com/lcs_cout
+      linktree: https://linktr.ee/lcscout
 
   # List pages like blogs and posts
   listPages:
