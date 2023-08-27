@@ -151,7 +151,7 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      I'm mostly a programmer but I have a strong interest in the intersection of technology and art. I'm very interested in render pipelines, shaders, software architecture and game optimizations. Currently, I work as a game developer at [Izyplay Game Studio.](https://www.izyplay.com.br/).
+      I'm mostly a programmer but I have a strong interest in the intersection of technology and art. I'm very interested in render pipelines, shaders, software architecture and game optimizations. Currently, I work as a game developer at [Izyplay Game Studio](https://www.izyplay.com.br/).
 
       Besides work, I'm currently doing a bachelor's degree in Digital Games at PUC Minas. I'm also working on a personal project to be launched on Steam soon enough.
     skills:
