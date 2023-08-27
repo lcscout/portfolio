@@ -246,24 +246,32 @@ params:
   # Achievements
   achievements:
     enable: true
-    title: "Highlights"
+    title: "Certificates"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievment.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: Unity Junior Programmer
+        content: The Unity Junior Programmer Pathway validates skills and competencies to be a proficient junior programmer writing scripts in C# to create interactive experiences with the Unity Editor.
+        url: https://www.credly.com/badges/4c092772-6255-48e5-86f5-600d04ed3c9a/public_url
+        image: /certificates/unityprog.png
+      - title: Unity Essentials Pathway
+        content: Unity Essentials is the pathway for interested creators who are just getting started with Unity and real-time content creation.
+        url: https://www.credly.com/badges/76963fad-b54a-41fe-beda-44059fd0246f/public_url
+        image: /certificates/unityessential.png
+      - title: Node.js para iniciantes
+        content: NodeBR beginner course about Node.js
+        image: /certificates/nodebr.jpg
+      - title: APIs and Microservices
+        content: freeCodeCamp course on apis and microservices.
+        url: "https://www.freecodecamp.org/certification/lcscout/back-end-development-and-apis"
+      - title: Javascript Algorithms and Data Structures
+        content: freeCodeCamp course on javascript algorithms and data structures.
+        url: "https://www.freecodecamp.org/certification/lcscout/javascript-algorithms-and-data-structures"
+      - title: Responsive Web Design
+        content: freeCodeCamp course on responsive web design.
+        url: "https://www.freecodecamp.org/certification/lcscout/responsive-web-design"
+      - title: ReactJS and React Native
+        content: Rocketseat course on React frameworks.
+      - title: Javascript ES6+
+        content: Rocketseat course on javascript ES6+
 
   # projects
   projects:
