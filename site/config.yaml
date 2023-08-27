@@ -120,7 +120,7 @@ params:
     intro: "Hi there 👋 I'm"
     title: "Lucas,"
     subtitle: "a game developer."
-    content: "I'm very interested in everything that surrounds game development and passionate about creating new worlds and unique experiences."
+    content: "I'm based on Brazil and I'm very interested in everything that surrounds game development and passionate about creating new worlds and unique experiences."
     image: /images/peep896963.png
     bottomImage:
       enable: true
@@ -151,19 +151,19 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
+      I'm mostly a programmer but I have a strong interest in the intersection of technology and art. I'm very interested in render pipelines, shaders, software architecture and game optimizations. Currently, I work as a game developer at [Izyplay Game Studio.](https://www.izyplay.com.br/).
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      Besides work, I'm currently doing a bachelor's degree in Digital Games at PUC Minas. I'm also working on a personal project to be launched on Steam soon enough.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "I realize that I don't know everything and I recognize my weak points, adding it to my learning. Over the years though I've sharpen my experience in:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Unity"
+        - "C#"
+        - "Git"
+        - "Mobile Development"
+        - "Art & UI Integration"
+        - "Game Tooling"
 
   # Experience
   experience:
