@@ -179,10 +179,10 @@ params:
           name: "Check our projects"
           url: "https://izyplay.com/inicial#games"
         content: |
-          - Responsible for translating the game designs' ideas into gameplay features. Also responsible for creating tools to improve workflow and implementing external tools and analytics.
+          - Responsible for translating the game designs' ideas into gameplay features. Also responsible for creating tools to improve workflow and implementing external tools and analytics 💪
           - I have successfully contributed to a diverse range of projects, swiftly adapting to different teams and responsibilities. Moreover, I have actively participated in significant and pivotal projects, where my contributions played a crucial role in shaping and advancing the major goals of the company.
           - I developed and adapted games for a variety of platforms, mainly mobile, addressing compatibility challenges and optimizing projects to align with the distinct characteristics of each platform.
-          - My role extended beyond project execution as I became an advocate for enriching the company's collective knowledge. This involved an in-depth examination of our current tech landscape as well as a vigilant exploration of new advancements. While I gained valuable insights I also shared them with the team, fostering a culture of continuous learning and growth.
+          - My role extended beyond project execution as I became an advocate for enriching the company's collective knowledge. This involved an in-depth examination of our current tech landscape as well as a vigilant exploration of new advancements. While I gained valuable insights I also shared them with the team, fostering a culture of continuous learning and growth 🧠
           - Furthermore, I contributed by documenting a diverse array of processes such as best practices and troubleshooting guides. This proved invaluable in fostering consistent approaches, aiding new team members, and enhancing overall productivity.
 
       - job: "Full-Stack Web Developer"
@@ -191,11 +191,11 @@ params:
         date: "Nov 2019 - Mar 2020"
         info:
           enable: true
-          content: I was a intern for 4 months and worked more 2 months part-time before quitting for personal reasons.
+          content: I was an intern for 4 months and worked more 2 months part-time before quitting for personal reasons.
         content: |
           At PICSIZE, I worked with a very small team of 6 people at a startup that provides solutions for photographers' workflow, from the moment they finish taking the photo to delivering it to their clients.
 
-          - It was my first work experience, and I had the pleasure of being in touch with wonderful people from whom I learned a lot, both technically and personally.
+          - It was my first work experience, and I had the pleasure of being in touch with wonderful people from whom I learned a lot, both technically and personally 🙏
           - After 4 months of internship I was invited to a part-time position.
           - At this point I was assigned to create a new solution on my own. The project was a portfolio creator, where photographers could easily show their work in a featured page. But ultimately, I ended up quitting the job.
 
@@ -205,47 +205,41 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Bachelor's degree in Digital Games"
         school:
-          name: "University of California, Berkeley"
+          name: "PUC Minas"
           url: "https://example.org"
         date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
-        content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
+
+      - title: "Bachelor's degree in Control and Automation Engineering"
         school:
-          name: "Massachusetts Institute of Technology"
+          name: "UFMG"
           url: "https://example.org"
         date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+        content: |
+          I 
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
+      - title: "Bachelor's degree in Information Systems"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
+          name: "UFMG"
           url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+        date: "2009 - 2013"
+
+      - title: "Vocational degree in Mechanics, and High School"
+        school:
+          name: "IFES"
+          url: "https://example.org"
+        date: "2009 - 2013"
+        content: |
+          It was during high school that I came in contact with programming for the first time. I learned the basics of C++ Language and soon wanted to learn another one.
+
+          - With the same will in mind a friend of mine started learning Python and I chose to learn Ruby (not my best decision 😛), just to not copycat.
+          - I learned it mostly by doing games using the Gosu gem, and it was pretty fun, this was also my introduction to game programming.
 
   # Achievements
   achievements:
     enable: true
-    # title: "Custom Name"
+    title: "Highlights"
     items:
       - title: Google kickstart runner
         content: I solved all problems with optimal solution.
