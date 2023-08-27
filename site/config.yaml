@@ -159,10 +159,10 @@ params:
       title: "I realize that I don't know everything and I recognize my weak points, adding it to my learning. Over the years though I've sharpen my experience in:"
       items:
         - "Unity"
-        - "C#"
-        - "Git"
         - "Mobile Development"
+        - "C#"
         - "Art & UI Integration"
+        - "Git"
         - "Game Tooling"
 
   # Experience
