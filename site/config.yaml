@@ -153,7 +153,7 @@ params:
     content: |-
       I'm mostly a programmer but I have a strong interest in the intersection of technology and art. I'm very interested in render pipelines, shaders, software architecture and game optimizations. Currently, I work as a game developer at [Izyplay Game Studio](https://www.izyplay.com/).
 
-      Besides work, I'm currently doing a bachelor's degree in Digital Games at PUC Minas. I'm also working on a personal project to be launched on Steam soon enough.
+      Besides work, I'm currently doing a bachelor's degree in Digital Games at PUC Minas. I'm also working on a personal project to be launched on Steam soon enough 👀
     skills:
       enable: true
       title: "I realize that I don't know everything and I recognize my weak points, adding it to my learning. Over the years though I've sharpen my experience in:"
@@ -207,29 +207,29 @@ params:
     items:
       - title: "Bachelor's degree in Digital Games"
         school:
-          name: "PUC Minas"
-          url: "https://example.org"
-        date: "2013 - 2015"
+          name: "PUC Minas - Pontifícia Universidade Católica de Minas Gerais"
+          url: "https://www.pucminas.br/"
+        date: "2023 - present"
 
       - title: "Bachelor's degree in Control and Automation Engineering"
         school:
-          name: "UFMG"
-          url: "https://example.org"
-        date: "2009 - 2013"
+          name: "UFMG - Universidade Federal de Minas Gerais"
+          url: "https://ufmg.br/"
+        date: "2020 - 2022"
         content: |
           I 
 
       - title: "Bachelor's degree in Information Systems"
         school:
-          name: "UFMG"
-          url: "https://example.org"
-        date: "2009 - 2013"
+          name: "UFMG - Universidade Federal de Minas Gerais"
+          url: "https://ufmg.br/"
+        date: "2019 - 2020"
 
       - title: "Vocational degree in Mechanics, and High School"
         school:
-          name: "IFES"
-          url: "https://example.org"
-        date: "2009 - 2013"
+          name: "IFES - Instituto Federal do Espírito Santo"
+          url: "https://www.ifes.edu.br/"
+        date: "2015 - 2018"
         content: |
           It was during high school that I came in contact with programming for the first time. I learned the basics of C++ Language and soon wanted to learn another one.
 
