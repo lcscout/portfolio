@@ -215,7 +215,7 @@ params:
         school:
           name: "UFMG - Universidade Federal de Minas Gerais"
           url: "https://ufmg.br/"
-        date: "2020 - 2022"
+        date: "2020 - 2022 (Unfinished)"
         content: |
           I 
 
@@ -223,7 +223,7 @@ params:
         school:
           name: "UFMG - Universidade Federal de Minas Gerais"
           url: "https://ufmg.br/"
-        date: "2019 - 2020"
+        date: "2019 - 2020 (Unfinished)"
 
       - title: "Vocational degree in Mechanics, and High School"
         school:
