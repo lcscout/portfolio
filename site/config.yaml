@@ -251,14 +251,14 @@ params:
       - title: Unity Junior Programmer
         content: The Unity Junior Programmer Pathway validates skills and competencies to be a proficient junior programmer writing scripts in C# to create interactive experiences with the Unity Editor.
         url: https://www.credly.com/badges/4c092772-6255-48e5-86f5-600d04ed3c9a/public_url
-        image: /certificates/unityprog.png
+        image: /images/certificates/unityprog.png
       - title: Unity Essentials Pathway
         content: Unity Essentials is the pathway for interested creators who are just getting started with Unity and real-time content creation.
         url: https://www.credly.com/badges/76963fad-b54a-41fe-beda-44059fd0246f/public_url
-        image: /certificates/unityessential.png
+        image: /images/certificates/unityessential.png
       - title: Node.js para iniciantes
         content: NodeBR beginner course about Node.js
-        image: /certificates/nodebr.jpg
+        image: /images/certificates/nodebr.jpg
       - title: APIs and Microservices
         content: freeCodeCamp course on apis and microservices.
         url: "https://www.freecodecamp.org/certification/lcscout/back-end-development-and-apis"
