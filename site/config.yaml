@@ -151,7 +151,7 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      I'm mostly a programmer but I have a strong interest in the intersection of technology and art. I'm very interested in render pipelines, shaders, software architecture and game optimizations. Currently, I work as a game developer at [Izyplay Game Studio](https://www.izyplay.com.br/).
+      I'm mostly a programmer but I have a strong interest in the intersection of technology and art. I'm very interested in render pipelines, shaders, software architecture and game optimizations. Currently, I work as a game developer at [Izyplay Game Studio](https://www.izyplay.com/).
 
       Besides work, I'm currently doing a bachelor's degree in Digital Games at PUC Minas. I'm also working on a personal project to be launched on Steam soon enough.
     skills:
@@ -170,46 +170,36 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+      - job: "Game Developer"
+        company: "Izyplay Game Studio"
+        companyUrl: "https://www.izyplay.com/"
+        date: "Jun 2022 - present"
         featuredLink:
           enable: true
-          name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+          name: "Check our projects"
+          url: "https://izyplay.com/inicial#games"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          - Responsible for translating the game designs' ideas into gameplay features. Also responsible for creating tools to improve workflow and implementing external tools and analytics.
+          - I have successfully contributed to a diverse range of projects, swiftly adapting to different teams and responsibilities. Moreover, I have actively participated in significant and pivotal projects, where my contributions played a crucial role in shaping and advancing the major goals of the company.
+          - I developed and adapted games for a variety of platforms, mainly mobile, addressing compatibility challenges and optimizing projects to align with the distinct characteristics of each platform.
+          - My role extended beyond project execution as I became an advocate for enriching the company's collective knowledge. This involved an in-depth examination of our current tech landscape as well as a vigilant exploration of new advancements. While I gained valuable insights I also shared them with the team, fostering a culture of continuous learning and growth.
+          - Furthermore, I contributed by documenting a diverse array of processes such as best practices and troubleshooting guides. This proved invaluable in fostering consistent approaches, aiding new team members, and enhancing overall productivity.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
-          enable: false
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+      - job: "Full-Stack Web Developer"
+        company: "PICSIZE"
+        companyUrl: "https://picsize.com.br/"
+        date: "Nov 2019 - Feb 2020"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          - After 4 months of internship I was invited to a part-time position.
+          - At this point I was assigned to create a new solution on my own. The project was a portfolio creator, where photographers could easily show their work in a featured page. But ultimately, I ended up quitting the job.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+      - job: "Full-Stack Web Developer Intern"
+        company: "PICSIZE"
+        companyUrl: "https://picsize.com.br/"
+        date: "Nov 2019 - Feb 2020"
+        content: |
+          - At PICSIZE, I worked with a very small team of 6 people at a startup that provides solutions for photographers' workflow, from the moment they finish taking the photo to delivering it to their clients.
+          - It was my first work experience, and I had the pleasure of being in touch with wonderful people from whom I learned a lot, both technically and personally.
 
       - job: "UI/UX Designer"
         company: "Netflix"
