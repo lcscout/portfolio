@@ -212,7 +212,7 @@ params:
           url: "https://www.pucminas.br/"
         date: "2023 - present"
         content: |
-          After I decided that I wanted to do game development for life 🎮 and started working in the industry I decided it was time to get a degree related to this area.
+          After I figured out that I wanted to do game development as a living and actually started working in the industry, I decided it was time to get a degree related to this area 🎮
 
       - title: "Bachelor's degree in Control and Automation Engineering"
         school:
@@ -228,7 +228,7 @@ params:
           url: "https://ufmg.br/"
         date: "2019 - 2020 (Unfinished)"
         content: |
-          I knew I wanted to major in something technology-related but I was still figuring out what exactly I wanted to do 🤔
+          I knew I wanted to major in something technology-related but I was still figuring out what exactly I wanted to do
 
           - I started learning web development because I thought it had an easier entry barrier to get into the job market.
           - After better thought I decided to change my major.
@@ -241,7 +241,7 @@ params:
         content: |
           It was during high school that I came in contact with programming for the first time. I learned the basics of C++ Language and soon wanted to learn another one.
 
-          - With the same will in mind a friend of mine started learning Python and I chose to learn Ruby (not my best decision 😛), just to not copycat.
+          - With the same will in mind a friend of mine started learning Python and I chose to learn Ruby, just to not copycat 😛
           - I learned it mostly by doing games using the Gosu gem, and it was pretty fun, this was also my introduction to game programming.
 
   # Achievements
