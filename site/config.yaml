@@ -120,7 +120,7 @@ params:
     intro: "Hi there 👋 I'm"
     title: "Lucas,"
     subtitle: "a game developer."
-    content: "I'm based on Brazil and I'm very interested in everything that surrounds game development and passionate about creating new worlds and unique experiences."
+    content: "I'm currently based on Brazil and I'm very interested in everything that surrounds game development. My passion is creating new worlds and unique experiences."
     image: /images/peep896963.png
     bottomImage:
       enable: true
