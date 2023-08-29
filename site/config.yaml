@@ -179,7 +179,7 @@ params:
           name: "Check our projects"
           url: "https://izyplay.com/inicial#games"
         content: |
-          In this position I was primarily responsible for translating game design ideas into gameplay features, as well as creating tools to improve workflow and implementing external tools.
+          In this position I was primarily responsible for translating game design ideas into gameplay features, as well as creating tools to improve workflow, integrating visual elements and UI, and implementing external tools for data analysis.
 
           Furthermore:
           - Contributed successfully to a variety of projects, adapting easily between different teams. In addition, I actively participated in significant projects where I played a crucial role in shaping and advancing the company's key goals 💪
@@ -196,6 +196,7 @@ params:
           content: I was an intern for 4 months and worked more 2 months part-time.
         content: |
           During my experience as an intern, my responsibilities were more focused and adapted to my level of knowledge, with an emphasis on learning and adapting. My tasks involved supporting the development of projects, performing tests and debugging code, as well as contributing to the documentation and research of technical solutions.
+
           After I was invited to a part-time position, I was in charge of designing systems from architecture to implementation, ensuring flexibility and responsiveness of systems, monitoring performance, optimizing resources and searching for innovative solutions 🌐
           - I worked with different programming paradigms like MVC, Serverless, Event Driven, Object Driven, and also with different technologies like NodeJS, React, Redux, Redis, Styled Components, AWS EC2, AWS S3, AWS Lambda, Grafana, PostgreSQL and MongoDB.
 
