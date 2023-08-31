@@ -579,7 +579,7 @@ header .navbar.animate {
     padding: .5rem 1rem;
 }
 
-/* TopScroll */
+/* Top scroll button */
 
 #topScroll {
     display: none;
@@ -602,7 +602,7 @@ header .navbar.animate {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Singlepage scroll progress start */
+/* Scroll progress bar */
 .progress {
     position: fixed;
     top: 0;
