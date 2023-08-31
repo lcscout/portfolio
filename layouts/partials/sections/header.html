@@ -90,7 +90,7 @@
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#featured"
                             aria-label="projects">
-                            {{ .Site.Params.projects.title | default "Projects" }}
+                            {{ .Site.Params.projects.navTitle | default "Projects" }}
                         </a>
                     </li>
                     {{ end }}
