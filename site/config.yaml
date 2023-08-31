@@ -195,7 +195,8 @@ params:
           enable: true
           content: I was an intern for 4 months and worked more 2 months part-time.
         content: |
-          During my experience as an intern, my responsibilities were more focused and adapted to my level of knowledge, with an emphasis on learning and adapting. My tasks involved supporting the development of projects, performing tests and debugging code, as well as contributing to the documentation and research of technical solutions.
+          During my experience as an intern, my responsibilities were more focused and adapted to my level of knowledge, with an emphasis on learning and adapting. My tasks involved supporting the development of projects, performing tests and debugging code, as well as contributing to
+          the documentation and research of technical solutions.
 
           After I was invited to a part-time position, I was in charge of designing systems from architecture to implementation, ensuring flexibility and responsiveness of systems, monitoring performance, optimizing resources and searching for innovative solutions 🌐
           - I worked with different programming paradigms like MVC, Serverless, Event Driven, Object Driven, and also with different technologies like NodeJS, React, Redux, Redis, Styled Components, AWS EC2, AWS S3, AWS Lambda, Grafana, PostgreSQL and MongoDB.
@@ -280,23 +281,24 @@ params:
     navTitle: "Projects"
     title: "Featured Projects"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: "Run01: 'til Mayhem"
+        content: "Run01 is a side-scrolling endless runner game for mobile where you're helping a mutant experiment with its task. The game is similar to Chrome's Dino Game,
+          with a twist on having two runnable planes and being able to teleport between them. Collect the dark stones and keep running, until mayhem."
+        image: /images/projects/r01-Gif.gif
         featured:
           name: Demo
-          link: https://hugo-profile.netlify.app
+          link: https://github.com/lcscout/run01-unity-game/releases
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Unity"
+          - "Endless Runner"
+          - "Mobile"
         links:
           - icon: fa fa-envelope
             url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
+            url: https://github.com/lcscout/run01-unity-game/
           - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https://github.com/lcscout/run01-unity-game/
 
       - title: Image Converter
         content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
