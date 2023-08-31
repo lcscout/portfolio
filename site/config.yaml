@@ -246,7 +246,7 @@ params:
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     title: "Certificates"
     items:
       - title: Unity Junior Programmer
