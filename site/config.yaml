@@ -352,7 +352,9 @@ params:
 
   # For index page
   indexPage:
-    enableScrollProgress: true
+    scroll:
+      progressBar: false
+      topButton: true
 
   # List pages like blogs and posts
   listPages:

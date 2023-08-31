@@ -20,12 +20,14 @@
 {{- partial "sections/achievements.html" . -}}
 {{- partial "sections/contact.html" . -}}
 
-{{ if (.Site.Params.indexPage.enableScrollProgress | default false) }}
+{{ if (.Site.Params.indexPage.scroll.progressBar | default false) }}
 <div class="progress">
   <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 <Script src="{{.Site.Params.staticPath}}/js/scrollProgressBar.js"></script>
+{{ end }}
 
+{{ if (.Site.Params.indexPage.scroll.topButton | default false) }}
 <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
     <i class="fas fa-angle-up"></i>
 </button>
