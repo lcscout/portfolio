@@ -353,7 +353,7 @@ params:
   # For index page
   indexPage:
     scroll:
-      progressBar: false
+      progressBar: true
       topButton: true
 
   # List pages like blogs and posts
