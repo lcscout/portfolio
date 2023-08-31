@@ -27,11 +27,11 @@ Menus:
     - identifier: blog
       name: Blog
       title: Blog posts
-      url: /blogs
+      url: /blog
       weight: 1
     - identifier: gallery
       name: Gallery
-      title: Blog posts
+      title: Gallery
       url: /gallery
       weight: 2
     #Dropdown menu
@@ -277,7 +277,7 @@ params:
   # projects
   projects:
     enable: true
-    navTitle: "Featured"
+    navTitle: "Projects"
     title: "Featured Projects"
     items:
       - title: Hugo Profile
