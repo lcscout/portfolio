@@ -89,6 +89,26 @@
 <script src="{{ .Site.Params.staticPath }}/js/contact.js"></script>
 {{ end }}
 
+{{ if (.Site.Params.indexPage.enableScrollProgress | default false) }}
+<script>
+    var topScroll = document.getElementById("topScroll");
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            topScroll.style.display = "block";
+        } else {
+            topScroll.style.display = "none";
+        }
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+{{ end }}
+
 {{ if (.Site.Params.customScripts | default false) }}
 {{ .Site.Params.customScripts | safeHTML }}
 {{ end }}

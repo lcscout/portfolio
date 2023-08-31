@@ -350,6 +350,10 @@ params:
       twitter: https://twitter.com/lcs_cout
       linktree: https://linktr.ee/lcscout
 
+  # For index page
+  indexPage:
+    enableScrollProgress: true
+
   # List pages like blogs and posts
   listPages:
     disableFeaturedImage: false

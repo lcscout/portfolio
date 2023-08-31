@@ -20,21 +20,3 @@
 {{- partial "sections/achievements.html" . -}}
 {{- partial "sections/contact.html" . -}}
 {{ end }}
-
-<script>
-    var topScroll = document.getElementById("topScroll");
-    window.onscroll = function () { scrollFunction() };
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            topScroll.style.display = "block";
-        } else {
-            topScroll.style.display = "none";
-        }
-    }
-
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
-</script>
