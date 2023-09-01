@@ -282,8 +282,7 @@ params:
     title: "Featured Projects"
     items:
       - title: "Run01: 'til Mayhem"
-        content: "Run01 is a side-scrolling endless runner game for mobile where you're helping a mutant experiment with its task. The game is similar to Chrome's Dino Game,
-          with a twist on having two runnable planes and being able to teleport between them. Collect the dark stones and keep running, until mayhem."
+        content: "Run01 is a side-scrolling endless runner game for mobile. The game is was inspired on Chrome's Dino Game, with a twist on having two runnable planes and being able to teleport between them."
         image: /images/projects/r01-Gif.gif
         featured:
           name: Demo
@@ -292,40 +291,69 @@ params:
           - "Unity"
           - "Endless Runner"
           - "Mobile"
+          - "Study Project"
         links:
           - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+            url: mailto:?subject=Run01%20Open%20Source%20Project
           - icon: fab fa-github
             url: https://github.com/lcscout/run01-unity-game/
           - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https://github.com/lcscout/run01-unity-game/
+            url: https://twitter.com/intent/tweet?text=Check+this+out:&url=https://github.com/lcscout/run01-unity-game/
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title: Street Racing
+        content: "This is a racing game where you try to beat your own time, it was a final submission project for the Unity course: Junior Programmer."
+        image: /images/projects/SR-Gif_Compressed.gif
         featured:
           name: Demo
-          link: https://django-converter.herokuapp.com
+          link: https://play.unity.com/mg/other/builds-cl-1
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "Unity"
+          - "Arcade Racing"
+          - "Study Project"
         links:
+          - icon: fa fa-envelope
+            url: mailto:?subject=Street%20Racing%20Open%20Source%20Project
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/lcscout/street-racing-unity
+          - icon: fab fa-twitter
+            url: https://twitter.com/intent/tweet?text=Check+this+out:&url=https://github.com/lcscout/street-racing-unity
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+      - title: Warehouse Invasion
+        content: "This is a FPS game with rogue-like features that I made to practice what I've learned from the Unity course: Create with Code."
+        image: /images/projects/WI-Gif.gif
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          name: Demo
+          link: https://play.unity.com/mg/other/webgl-builds-49946
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Unity"
+          - "FPS"
+          - "Roguelike"
+          - "Study Project"
         links:
+          - icon: fa fa-envelope
+            url: mailto:?subject=Warehouse%20Invasion%20Open%20Source%20Project
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/lcscout/wi-unity-game
+          - icon: fab fa-twitter
+            url: https://twitter.com/intent/tweet?text=Check+this+out:&url=https://github.com/lcscout/wi-unity-game
+
+      - title: S.U.B.
+        content: "My first official game. This is a simple "get the treasure" game. I also did the sprites myself, which made the project more satisfying to do."
+        image: /images/projects/sub_treasure.png
+        featured:
+          name: Demo
+          link: https://treasure-hunter-game-sub.web.app/
+        badges:
+          - "JavaScript"
+          - "Phaser.js"
+          - "Study Project"
+        links:
+          - icon: fa fa-envelope
+            url: mailto:?subject=S.U.B.%20Open%20Source%20Project
+          - icon: fab fa-github
+            url: https://github.com/lcscout/sub-treasure-hunter
+          - icon: fab fa-twitter
+            url: https://twitter.com/intent/tweet?text=Check+this+out:&url=https://github.com/lcscout/sub-treasure-hunter
 
   #Contact
   contact:
