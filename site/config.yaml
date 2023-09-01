@@ -289,8 +289,8 @@ params:
           link: https://github.com/lcscout/run01-unity-game/releases
         badges:
           - "Unity"
-          - "Endless Runner"
           - "Mobile"
+          - "Runner"
           - "Study Project"
         links:
           - icon: fa fa-envelope
@@ -330,8 +330,6 @@ params:
           - "Roguelike"
           - "Study Project"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Warehouse%20Invasion%20Open%20Source%20Project
           - icon: fab fa-github
             url: https://github.com/lcscout/wi-unity-game
           - icon: fab fa-twitter
@@ -348,12 +346,8 @@ params:
           - "Phaser.js"
           - "Study Project"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=S.U.B.%20Open%20Source%20Project
           - icon: fab fa-github
             url: https://github.com/lcscout/sub-treasure-hunter
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+this+out:&url=https://github.com/lcscout/sub-treasure-hunter
 
   #Contact
   contact:
