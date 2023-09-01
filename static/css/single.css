@@ -155,7 +155,7 @@
 /* sidebar */
 
 #single aside {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     border-radius: .7rem;
     padding: .7rem 1rem;
     margin-bottom: 1em;
