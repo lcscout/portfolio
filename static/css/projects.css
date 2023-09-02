@@ -55,6 +55,18 @@
     border: none !important;
 }
 
+#projects .card .card-head {
+    cursor: pointer;
+}
+
+#projects .card .card-body {
+    cursor: pointer;
+}
+
+#projects #card-footer-click {
+    cursor: pointer;
+}
+
 #projects .card .card-footer {
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
@@ -147,8 +159,4 @@
     color: var(--secondary-color);
     transition: .5s;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-}
-
-#card-div:hover {
-    cursor: pointer;
 }
