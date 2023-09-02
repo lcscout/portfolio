@@ -220,7 +220,7 @@ header .navbar.animate {
 
 #about ul {
     display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-template-columns: repeat(2, minmax(140px, 250px));
     gap: 0px 10px;
     padding: 0px;
     margin: 20px 0px 0px;
@@ -279,6 +279,10 @@ header .navbar.animate {
     flex-wrap: wrap;
 }
 
+#about #btn-div {
+    text-align: center;
+}
+
 #about a.btn {
     transition: none;
     transition: opacity 0.3s;
@@ -288,6 +292,11 @@ header .navbar.animate {
     background-color: var(--secondary-color) !important;
     color: var(--text-color) !important;
     border-radius: .75rem;
+}
+
+#about a.btn::after {
+    content: "";
+    display: none;
 }
 
 #about a.btn:focus {
