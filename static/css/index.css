@@ -152,12 +152,14 @@ header .navbar.animate {
 }
 
 #hero a.btn {
+    transition: none;
+    transition: opacity 0.3s;
     margin-top: 50px;
     padding: 0.7rem 1.75rem;
     border: 1px solid var(--primary-color);
+    background-color: var(--secondary-color) !important;
     color: var(--text-color) !important;
     border-radius: .75rem;
-    transition: none;
 }
 
 #hero a.btn:focus {
@@ -165,9 +167,9 @@ header .navbar.animate {
 }
 
 #hero a.btn:hover {
-    background-color: var(--secondary-color) !important;
-    color: var(--text-color) !important;
-    opacity: 0.9;
+    /* background-color: var(--secondary-color) !important;
+    color: var(--text-color) !important; */
+    opacity: 0.7;
 }
 
 #hero a.btn.social-icon:hover {
