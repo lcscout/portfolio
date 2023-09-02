@@ -62,3 +62,12 @@
 #projects .float-end .btn:focus {
     box-shadow: none !important;
 }
+
+#projects #hero-projects {
+    justify-content: left !important;
+}
+
+#projects #hero-projects img {
+    background: transparent !important;
+    border: none !important;
+}
