@@ -343,19 +343,19 @@ params:
           - icon: fab fa-twitter
             url: https://twitter.com/intent/tweet?text=Check+this+out:&url=https://github.com/lcscout/wi-unity-game
 
-      - title: S.U.B.
-        content: "My first official game. This is a simple \"get the treasure\" game. I also did the sprites myself, which made the project more satisfying to do."
-        image: /images/projects/sub_treasure.png
-        featured:
-          name: Demo
-          link: https://treasure-hunter-game-sub.web.app/
-        badges:
-          - "JavaScript"
-          - "Phaser.js"
-          - "Study Project"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/lcscout/sub-treasure-hunter
+      # - title: S.U.B.
+      #   content: "My first official game. This is a simple \"get the treasure\" game. I also did the sprites myself, which made the project more satisfying to do."
+      #   image: /images/projects/sub_treasure.png
+      #   featured:
+      #     name: Demo
+      #     link: https://treasure-hunter-game-sub.web.app/
+      #   badges:
+      #     - "JavaScript"
+      #     - "Phaser.js"
+      #     - "Study Project"
+      #   links:
+      #     - icon: fab fa-github
+      #       url: https://github.com/lcscout/sub-treasure-hunter
 
   #Contact
   contact:
