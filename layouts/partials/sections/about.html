@@ -10,16 +10,34 @@
                 </div>
             </div>
             {{ end }}
-            <div class="col-sm-12 col-md-12 col-lg-8 content">
+            <div class="col-sm-12 col-md-12 col-lg-8 content" id="{{ if .Site.Params.about.skills.button.enable }}first-div{{ end }}">
                 {{ .Site.Params.about.content | markdownify }}
 
                 {{ if .Site.Params.about.skills.enable }}
                 {{ .Site.Params.about.skills.title }}
-                <ul>
-                    {{ range .Site.Params.about.skills.items }}
-                    <li>{{ . | markdownify }}</li>
-                    {{ end }}
-                </ul>
+
+                {{ if .Site.Params.about.skills.button.enable }}
+                    <div id="grid-separate">
+                        <div class="col-12 col-sm-12 col-md-8 col-lg-8 content">
+                            <ul>
+                                {{ range .Site.Params.about.skills.items }}
+                                <li>{{ . | markdownify }}</li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                            <a href="{{ .Site.Params.skills.button.url }}" class="btn" id="skills-btn">
+                                {{ .Site.Params.skills.button.name }}
+                            </a>
+                        </div>
+                    </div>
+                {{ else }}
+                    <ul>
+                        {{ range .Site.Params.about.skills.items }}
+                        <li>{{ . | markdownify }}</li>
+                        {{ end }}
+                    </ul>
+                {{ end }}
                 {{ end }}
             </div>
         </div>
