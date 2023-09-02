@@ -73,6 +73,8 @@
     width: 100%;
     height: 250px !important;
     background-color: transparent !important;
+    /* min-height: 320px; */
+    object-fit: cover;
 }
 
 /* pagination */
@@ -91,4 +93,8 @@
     border-color: var(--primary-color);
     background-color: var(--primary-color) !important;
     color: var(--secondary-color) !important;
+}
+
+#card-div:hover {
+    cursor: pointer;
 }

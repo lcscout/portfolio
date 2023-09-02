@@ -22,6 +22,10 @@
               {{ .Params.author }} 
               <small>|</small>
               {{ .Date.Format (.Site.Params.datesFormat.article | default "Jan 2, 2006") }}
+              {{ if .Params.dateEnd | default true }}
+              -
+              {{ .PublishDate.Format (.Site.Params.datesFormat.article | default "Jan 2, 2006") }}
+              {{ end }}
 
               {{ if or (.Site.Params.singlePages.readTime.enable | default true) (.Params.enableReadingTime) }}
               <span id="readingTime">
@@ -31,8 +35,10 @@
             </div>
           </div>
           {{ if .Params.image }}
-          <div class="featured-image">
-            <img class="img-fluid" src="{{ .Params.image }}" alt="{{ .Title }}">
+          <div class="featured-image text-center">
+            <a href="{{ .Params.projectLinks.demo }}">
+              <img class="img-fluid" src="{{ .Params.image }}" alt="{{ .Title }}">
+            </a>
           </div>
           {{ end }}
           <article class="page-content  p-2">
@@ -64,9 +70,29 @@
           </aside>
           {{end}}
 
-          {{ if .Params.socialShare | default true }}
+          {{ if .Params.projectLinks.enable | default true }}
           <aside class="social">
-            <h5>{{ .Site.Params.terms.social | default "Share" }}</h5>
+            <h5>{{ .Params.projectLinks.name | default "Links" }}</h5>
+            <div class="social-content">
+              <ul class="list-inline">
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="{{ .Params.projectLinks.github }}">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="{{ .Params.projectLinks.demo }}">
+                    <i class="fas fa-gamepad"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          {{ end }}
+
+          {{ if .Params.socialShare.enable | default false }}
+          <aside class="social">
+            <h5>{{ .Params.socialShare.name | default "Share" }}</h5>
             <div class="social-content">
               <ul class="list-inline">
                 <li class="list-inline-item text-center">

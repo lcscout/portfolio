@@ -67,6 +67,9 @@
 
 #projects .card-img-top {
     transition: transform 0.3s;
+    height: 250px !important;
+    /* min-height: 320px; */
+    object-fit: cover;
 }
 
 #projects .float-end .btn {
@@ -144,4 +147,8 @@
     color: var(--secondary-color);
     transition: .5s;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#card-div:hover {
+    cursor: pointer;
 }

@@ -36,9 +36,15 @@ section
 
 #single .featured-image img {
     border-radius: 1rem;
-    box-shadow: 0px 8px 56px rgba(15, 80, 100, 0.16);
+    box-shadow: 0px 8px 56px rgba(15, 80, 100, 0.55);
     margin-bottom: 1rem;
     background-color: var(--secondary-color);
+    transition: transform 0.3s;
+    max-width: 650px;
+}
+
+#single .featured-image img:hover {
+    transform: scale(1.03);
 }
 
 #single .page-content img {
@@ -265,7 +271,7 @@ section
 
 #single aside.social .social-content ul li a {
     border: 1px solid var(--primary-color);
-    padding: .7rem;
+    padding: .7rem .85rem;
     color: var(--text-color);
     border-radius: 10px;
     overflow: hidden;
