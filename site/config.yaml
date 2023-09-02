@@ -71,6 +71,8 @@ params:
   # Whether the fade animations on the home page will be enabled
   animate: true
 
+  loading: true
+
   theme:
     # disableThemeToggle: true
     defaultTheme: "light" # dark

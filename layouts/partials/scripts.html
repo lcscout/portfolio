@@ -109,6 +109,14 @@
 </script>
 {{ end }}
 
+{{ if (.Site.Params.loading | default false) }}
+<script>
+    $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+    });
+</script>
+{{ end }}
+
 {{ if (.Site.Params.customScripts | default false) }}
 {{ .Site.Params.customScripts | safeHTML }}
 {{ end }}
