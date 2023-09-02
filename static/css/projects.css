@@ -77,9 +77,9 @@
     padding-top: 0 !important;
 }
 
-#projects #hero-projects h2
+#projects #hero-projects h3
 {
-    color: var(--text-secondary-color);
+    color: var(--text-secondary-color) !important;
 }
 
 #projects #hero-projects .h-100
