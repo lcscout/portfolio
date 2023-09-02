@@ -281,7 +281,7 @@ params:
     navTitle: "Projects"
     title: "Featured Projects"
     hero:
-      image: "/images/peep3432.png"
+      image: /images/peep3432.png
     items:
       - title: "Run01: 'til Mayhem"
         content: "Run01 is a side-scrolling endless runner game for mobile. The game is was inspired on Chrome's Dino Game, with a twist on having two runnable planes and being able to teleport between them."
