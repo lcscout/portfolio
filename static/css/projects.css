@@ -82,15 +82,15 @@
     color: var(--text-secondary-color) !important;
 }
 
-#projects #hero-projects .h-100
+#projects #hero-projects .content
 {
-    margin-top: 30px !important;
+    text-align: center;
 }
 
 #projects a.btn {
     transition: none;
     transition: opacity 0.3s;
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 0.7rem 1.75rem;
     border: 1px solid var(--primary-color);
     background-color: var(--secondary-color) !important;
