@@ -103,10 +103,6 @@
     opacity: 0.7;
 }
 
-#projects #hero-subsection {
-    padding-bottom: 0 !important;
-}
-
-#projects #first-column {
+#projects #secondary-font {
     padding-bottom: 3rem !important;
 }
