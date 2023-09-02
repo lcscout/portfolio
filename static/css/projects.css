@@ -82,11 +82,6 @@
     color: var(--text-secondary-color) !important;
 }
 
-#projects #hero-projects .content
-{
-    text-align: center;
-}
-
 #projects a.btn {
     transition: none;
     transition: opacity 0.3s;
