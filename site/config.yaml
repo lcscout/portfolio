@@ -15,7 +15,7 @@ outputs:
 Paginate: 3
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
-# googleAnalytics: G-MEASUREMENT_ID
+googleAnalytics: G-MEASUREMENT_ID
 
 markup:
   goldmark:
@@ -414,12 +414,4 @@ params:
     articleList: "Jan 2, 2006"
     articleRecent: "Jan 2, 2006"
 
-  customScripts: -| # You can add custom scripts which will be added before </body> tag
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ os.Getenv "ANALYTICS" }}"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', "{{ os.Getenv "ANALYTICS" }}");
-    </script>
+  # customScripts: -| # You can add custom scripts which will be added before </body> tag
