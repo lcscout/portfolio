@@ -53,7 +53,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Lucas Coutinho - Portfolio"
+  title: "Lucas Coutinho"
   description: Hi! I'm Lucas, a game developer from Brazil and this is my personal portfolio where I post everything I do.
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
