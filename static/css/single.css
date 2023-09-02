@@ -1,3 +1,19 @@
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Overall Sections */
+section
+{
+    animation: fade-in 1.5s ease-out;
+}
+
 #single {
     padding: 60px 0;
     line-height: 1.7em;

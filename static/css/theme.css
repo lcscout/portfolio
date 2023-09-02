@@ -1,3 +1,36 @@
+/* Header animation */
+@keyframes fade-up {
+    0% {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+header .navbar.animate {
+    animation: fade-up 1s ease-out;
+}
+
+/* Footer */
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+footer > div
+{
+    animation: fade-in 1.5s ease-out;
+}
+
 /* Loading animation */
 @-webkit-keyframes spin {
     0% {
@@ -136,4 +169,27 @@ body *::selection {
     border-top-color: var(--secondary-color);
     -webkit-animation: spin 1.5s linear infinite;
     animation: spin 1.5s linear infinite;
+}
+
+/* Top scroll button */
+
+#topScroll {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#topScroll:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    transition: .5s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
