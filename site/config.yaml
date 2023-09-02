@@ -415,13 +415,11 @@ params:
     articleRecent: "Jan 2, 2006"
 
   customScripts: -| # You can add custom scripts which will be added before </body> tag
-    <script type="text/javascript">
-      <script async src="https://www.googletagmanager.com/gtag/js?id="{{ os.Getenv "ANALYTICS" }}></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ os.Getenv "ANALYTICS" }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-        gtag('config', {{ os.Getenv "ANALYTICS" }});
-      </script>
+      gtag('config', "{{ os.Getenv "ANALYTICS" }}");
     </script>
