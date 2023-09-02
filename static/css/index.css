@@ -134,13 +134,15 @@ header .navbar.animate {
 } */
 
 #hero a.btn.social-icon {
+    transition: none;
+    transition: opacity 0.3s;
     color: var(--primary-color) !important;
     line-height: 0%;
     border-radius: 50%;
     margin-top: 50px;
     padding: 0.7rem;
     border: 1px solid var(--primary-color);
-    transition: none;
+    background-color: var(--secondary-color) !important;
 }
 
 #hero a.btn.social-icon img {
@@ -148,7 +150,7 @@ header .navbar.animate {
 }
 
 #hero a.btn.social-icon:hover {
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 #hero a.btn {
