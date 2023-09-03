@@ -53,8 +53,8 @@ markup:
     #   weight: 2
 
 params:
-  title: "Lucas Coutinho"
-  description: Hi! I'm Lucas, a game developer from Brazil and this is my personal portfolio where I post everything I do.
+  title: "Lucas Coutinho - Game Developer Portfolio"
+  description: Hi! I'm Lucas, a game developer from Brazil who has been in love with games since I was a kid. I'm currently working as a game programmer on Izyplay Game Studio and this is my personal portfolio where I post everything I do.
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
