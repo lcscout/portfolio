@@ -16,50 +16,70 @@
         <div class="title mb-3">
             <h1 class="text-center mb-4">{{ .Title }}</h1>
         </div>
-        <div class="row justify-content-center">
-            {{ if .Params.image }}
-            <div class="col-sm-12 col-md-12 col-lg-3 px-3">
-                <div class="sticky-sidebar">
-                    <aside class="aboutImg">
-                        <div class="text-center">
-                            <img src="{{ .Params.image }}" class="mx-auto rounded" alt="">
-                        </div>
-                        <h2 class="text-center pt-3">
-                            {{ .Params.name }}
-                        </h2>
-                        <div class="aboutImg-content">
-                            <ul class="list-inline pt-3 text-center">
-                                {{ range .Params.socialLinks.fontAwesomeIcons }}
-                                <li class="list-inline-item text-center">
-                                    <a href="{{ .url }}" target="_blank">
-                                        <i class="{{ .icon }}"></i>
-                                    </a>
-                                </li>
-                                {{ end }}
-
-                                {{ range .Params.socialLinks.customIcons }}
-                                <li class="list-inline-item text-center">
-                                    <a href="{{ .url }}" target="_blank" class="img-icon">
-                                        <img src="{{ .icon }}">
-                                    </a>
-                                </li>
-                                {{ end }}
-                            </ul>
-                        </div>
-                    </aside>
+        <div class="container bg-transparent">
+            <div class="bg-transparent row justify-content-center px-3 py-5">
+                <div class="col-sm-12 col-md-12 col-lg-8 content"
+                    id="{{ if .Site.Params.about.skills.button.enable }}first-div{{ end }}">
+                    <div class="pr-lg-4">
+                        <article class="page-content p-2">
+                            {{ .Content | emojify }}
+                        </article>
+                    </div>
                 </div>
-            </div>
-            {{ end }}
-
-            <div class="col-sm-12 col-md-12 col-lg-6 pt-4 p-2">
-                <div class="pr-lg-4">
-                    <article class="page-content p-2">
-                        {{ .Content | emojify }}
-                    </article>
+                {{ if .Params.image }}
+                <div class="col-sm-12 col-md-12 col-lg-3 px-3" id="img-div">
+                    <div>
+                        <aside class="aboutImg">
+                            <div class="text-center">
+                                <img src="{{ .Params.image }}" class="mx-auto rounded" alt="">
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+                {{ end }}
+                <div class="col-sm-12 col-md-12 col-lg-11 content"
+                    id="{{ if .Site.Params.about.skills.button.enable }}first-div{{ end }}">
+                    <div class="pr-lg-4">
+                        <article class="page-content p-2">
+                            {{ .Params.lastContent | markdownify }}
+                        </article>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <div class="container">
+            <div class="row justify-content-center px-3 px-md-5" id="row-blocks">
+                {{ range .Params.blocks }}
+                <div class="col-lg-6 col-md-6 my-3" id="blocks-card">
+                    {{ if .heroImg }}
+                    <div class="my-3 h-100" title="{{ .title }}" id="img-card">
+                        <aside class="aboutImg">
+                            <img src="{{ .heroImg }}" class="mx-auto rounded" alt="">
+                        </aside>
+                    </div>
+                    {{ else }}
+                    <div class="card my-3 h-100" title="{{ .title }}">
+                        <div class="card-body bg-transparent p-3">
+                            <div class="col-auto">
+                                <span>{{ .icon }}</span>
+                                <h5 class="card-title bg-transparent mt-1" style="color: #{{ .color }};"> {{ .title }}</h5>
+                            </div>
+                            <hr>
+                            <div class="card-text bg-transparent secondary-font">
+                                {{ .content | markdownify  }}
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
     </div>
+
+    {{- partial "sections/contact.html" . -}}
+
     <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
         <i class="fas fa-angle-up"></i>
     </button>

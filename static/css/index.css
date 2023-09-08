@@ -233,9 +233,9 @@ section
     border: 0;
 }
 
-#about .image img:hover {
+/* #about .image img:hover {
     box-shadow: 0 0 11px rgb(15 80 100 / 20%);
-}
+} */
 
 #about ul {
     display: grid;
